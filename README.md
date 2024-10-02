@@ -1,4 +1,4 @@
-<h1>README - Imagens de Raposa</h1>
+<h1>README - Imagens de Raposa 🦊</h1>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
