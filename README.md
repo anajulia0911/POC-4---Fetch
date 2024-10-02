@@ -1,5 +1,7 @@
 <h1>README - Imagens de Raposa</h1>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 <h4>Este projeto é uma aplicação web que exibe imagens aleatórias de raposas. Ele utiliza HTML, CSS e JavaScript para criar uma interface interativa onde os usuários podem atualizar a imagem de raposa com um clique de botão.</h4>
 
 <h1>Estrutura do Projeto</h1>
