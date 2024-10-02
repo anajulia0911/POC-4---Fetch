@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de rapousa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="foxImage" src="" alt="Imagem de Raposa">
+    <button onclick="getFoxIMG()">Atualizar Imagem</button>
+
+    <script>
+        function getFoxIMG() {
+            fetch(https://randomfox.ca/floof/)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('foxImage').src = data.image;
+                })
+                .catch(error => console.error('Erro:', error));
+        }
+
+        // Carregar uma imagem ao iniciar
+        getFoxIMG();
+    </script>
+
+</body>
+</html>
