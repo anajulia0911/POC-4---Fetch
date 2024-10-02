@@ -1,12 +1,12 @@
 <h1>README - Imagens de Rapousa</h1>
-<h5>Este projeto é uma aplicação web que exibe imagens aleatórias de raposas. Ele utiliza HTML, CSS e JavaScript para criar uma interface interativa onde os usuários podem atualizar a imagem de raposa com um clique de botão.</h5>
+<h4>Este projeto é uma aplicação web que exibe imagens aleatórias de raposas. Ele utiliza HTML, CSS e JavaScript para criar uma interface interativa onde os usuários podem atualizar a imagem de raposa com um clique de botão.</h4>
 
 <h1>Estrutura do Projeto</h1>
-<h2>O projeto é composto por um único arquivo HTML. Aqui está uma visão geral da estrutura:</h2>
+<h4>O projeto é composto por um único arquivo HTML. Aqui está uma visão geral da estrutura:</h4>
 
-<h2>HTML: Define a estrutura básica da página, incluindo uma imagem e um botão.</h2>
-<h2>CSS: Estiliza a página para uma melhor apresentação.</h2>
-<h2>JavaScript: Faz a chamada à API para obter uma nova imagem de raposa e atualiza a interface.</h2>
+<h4>HTML: Define a estrutura básica da página, incluindo uma imagem e um botão.</h4>
+<h4>CSS: Estiliza a página para uma melhor apresentação.</h4>
+<h4>JavaScript: Faz a chamada à API para obter uma nova imagem de raposa e atualiza a interface.</h4>
 <h1>Funcionalidades</h1>
 Exibição de Imagem: A imagem de uma raposa é exibida na página.
 Atualização de Imagem: Um botão permite ao usuário atualizar a imagem para uma nova raposa aleatória.
