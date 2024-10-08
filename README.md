@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<h4>Este projeto é uma aplicação web que exibe imagens aleatórias de raposas. Ele utiliza HTML, CSS e JavaScript para criar uma interface interativa onde os usuários podem atualizar a imagem de raposa com um clique de botão.</h4>
+<h4>Este projeto é uma aplicação web que exibe imagens aleatórias de raposas. Ele utiliza HTML, CSS e JavaScript para criar uma interface interativa onde os usuários podem atualizar a imagem de raposa com um clique de botão. O objetivo aqui é ensinar como consumir dados de APIs usando o método fetch e a crhação de funções em JavaSccript</h4>
 
 <h1>Estrutura do Projeto</h1>
 <h4>O projeto é composto por um único arquivo HTML. Aqui está uma visão geral da estrutura:</h4>
@@ -27,8 +27,8 @@ Clique no botão "Atualizar Imagem" para obter uma nova imagem de raposa.</h4>
 
 <h1>HTML:</h1>
 
-O elemento <img> é usado para exibir a imagem da raposa.
-O botão chama a função getFoxIMG() quando clicado.
+<p> O elemento img é usado para exibir a imagem da raposa. O valor do atributo src será estabeelcido no JS  
+O botão chama a função getFoxIMG() quando clicado. </p>
 
 ```
 <img id="foxImage" src="" alt="Imagem de Raposa">
@@ -76,13 +76,13 @@ Estilos aplicados à imagem e ao botão para melhorar a aparência.</h4>
 ```
 <h1>JavaScript:</h1>
 
-<h4>A função getFoxIMG() faz uma chamada à API e atualiza a imagem.
-O método fetch() é utilizado para obter os dados da API.
-Um tratamento de erro simples é implementado para capturar problemas na requisição.</h4>
-
+A função getFoxIMG() faz uma chamada à API e atualiza a imagem segindo a seguinte lógica: <br>
+    
 ```
  <script>
         function getFoxIMG() {
+//O método fetch() é utilizado para obter os dados da API. Ele recebe como argumento a url cuja requisição  será convertida em um objeto em formato JSON
+
             fetch(https://randomfox.ca/floof/)
                 .then(response => response.json())
                 .then(data => {
