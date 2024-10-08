@@ -52,8 +52,9 @@ Estilos aplicados à imagem e ao botão para melhorar a aparência.</h4>
             background-color: #f0f0f0;
         }
         img {
-            max-width: 100%;
-            height: auto;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
             border: 2px solid #ccc;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
