@@ -46,7 +46,7 @@
 
     <script>
         function getFoxIMG() {
-            fetch("https://randomfox.ca/floof/")  <!-- Corrigido aqui -->
+            fetch("https://randomfox.ca/floof/")  
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('foxImage').src = data.image;
@@ -54,7 +54,7 @@
                 .catch(error => console.error('Erro:', error));
         }
 
-        // Carregar uma imagem ao iniciar
+       
         getFoxIMG();
     </script>
 
