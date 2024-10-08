@@ -97,7 +97,9 @@ Um tratamento de erro simples é implementado para capturar problemas na requisi
 ```
 
 
-<h1>Aproveite as adoráveis imagens de raposas! 🦊</h1>
+<h1>Resultado visual</h1>
+O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir
+<img  src="">
 
 <h2 id="autores"> Autores </h2>
 
