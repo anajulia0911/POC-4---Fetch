@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens de rapousa</title>
+    <title>Imagens de Raposa</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,8 +16,9 @@
             background-color: #f0f0f0;
         }
         img {
-            max-width: 100%;
-            height: auto;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
             border: 2px solid #ccc;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -39,13 +40,13 @@
     </style>
 </head>
 <body>
-
+    <h1>Raposas</h1>
     <img id="foxImage" src="" alt="Imagem de Raposa">
     <button onclick="getFoxIMG()">Atualizar Imagem</button>
 
     <script>
         function getFoxIMG() {
-            fetch(https://randomfox.ca/floof/)
+            fetch("https://randomfox.ca/floof/")  <!-- Corrigido aqui -->
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('foxImage').src = data.image;
