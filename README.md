@@ -14,10 +14,6 @@
 <h4>Exibição de Imagem: A imagem de uma raposa é exibida na página.</h4>
 <h4>Atualização de Imagem: Um botão permite ao usuário atualizar a imagem para uma nova raposa aleatória.</h4>
 <h4>Carregamento Inicial: Uma imagem é carregada automaticamente ao abrir a página.</h4>
-<h1>Como Usar</h1>
-<h4>Clone ou baixe o repositório.
-Abra o arquivo HTML em um navegador web.
-Clique no botão "Atualizar Imagem" para obter uma nova imagem de raposa.</h4>
 <h1>Tecnologias Utilizadas</h1>
 <h4>HTML5: Para estruturar o conteúdo da página.</h4>
 <h4>CSS3: Para estilização e layout responsivo.</h4>
