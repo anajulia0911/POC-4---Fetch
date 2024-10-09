@@ -96,7 +96,7 @@ A função getFoxIMG() faz uma chamada à API e atualiza a imagem segindo a segu
 
 <h1>Resultado visual</h1>
 O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir
-<img  src="">
+<img  src="raposa.jpg">
 
 <h2 id="autores"> Autores </h2>
 
