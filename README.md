@@ -78,8 +78,6 @@ A função getFoxIMG() faz uma chamada à API e atualiza a imagem segindo a segu
 ```
  <script>
         function getFoxIMG() {
-//O método fetch() é utilizado para obter os dados da API. Ele recebe como argumento a url cuja requisição  será convertida em um objeto em formato JSON
-
             fetch(https://randomfox.ca/floof/)
                 .then(response => response.json())
                 .then(data => {
@@ -92,6 +90,11 @@ A função getFoxIMG() faz uma chamada à API e atualiza a imagem segindo a segu
         getFoxIMG();
     </script>
 ```
+<h4> Métodos Usados </h4>
+fetch() é utilizado para obter os dados da API. Ele recebe como argumento a url cuja requisição  será convertida em um objeto em formato JSON <br>
+.json() é usado para interpretar a resposta como JSON e convertê-la em um objeto JavaScript, para que você possa trabalhar com ele de forma nativa no seu código. <br>
+.then() é chamado em uma Promise para executar uma ação depois que a Promise for resolvida (estado fulfilled). Ele recebe como argumento uma função callback que é executada quando a operação assíncrona termina com sucesso, ou seja, quando a Promise é "cumprida" ou "resolvida". <br>
+.catch serve para tratar diferentes erros das Promise - no caso, se a requisição http falhar.
 
 
 <h1>Resultado visual</h1>
