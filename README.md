@@ -86,7 +86,6 @@ A função getFoxIMG() faz uma chamada à API e atualiza a imagem segindo a segu
                 .catch(error => console.error('Erro:', error));
         }
 
-        // Carregar uma imagem ao iniciar
         getFoxIMG();
     </script>
 ```
