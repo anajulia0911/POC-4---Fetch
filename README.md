@@ -97,7 +97,7 @@ fetch() é utilizado para obter os dados da API. Ele recebe como argumento a url
 
 
 <h1>Resultado visual</h1>
-O código presente neste repositório, quando executado em um navegador apresenta o versículo no centro da página, como mostra a imagem a seguir
+O código presente neste repositório, quando executado em um navegador apresenta a imagem no centro da página, como mostra a imagem a seguir
 <img style="border-radius:50%;width=300px; height:430px; display: flex; align-items: center; " src="raposa.jpg">
 
 <h2 id="autores"> Autores </h2>
