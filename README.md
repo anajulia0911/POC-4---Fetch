@@ -26,7 +26,7 @@
 <p> O elemento img é usado para exibir a imagem da raposa. O valor do atributo src será estabeelcido no JS  
 O botão chama a função getFoxIMG() quando clicado. </p>
 
-```
+```html
 <img id="foxImage" src="" alt="Imagem de Raposa">
     <button onclick="getFoxIMG()">Atualizar Imagem</button>
 ```
@@ -35,7 +35,7 @@ O botão chama a função getFoxIMG() quando clicado. </p>
 <h4>Estilização do corpo da página para centralizar o conteúdo.
 Estilos aplicados à imagem e ao botão para melhorar a aparência.</h4>
 
-```
+```css
 <style>
         body {
             font-family: Arial, sans-serif;
@@ -75,7 +75,7 @@ Estilos aplicados à imagem e ao botão para melhorar a aparência.</h4>
 
 A função getFoxIMG() faz uma chamada à API e atualiza a imagem segindo a seguinte lógica: <br>
     
-```
+```js
  <script>
         function getFoxIMG() {
             fetch(https://randomfox.ca/floof/)
